@@ -328,7 +328,7 @@ class _MaterialControlsState extends State<MaterialControls>
             ),
             child: Icon(
               _latestValue.volume > 0 ? Icons.volume_up : Icons.volume_off,
-              color: Colors.white,
+              color: Colors.grey,
             ),
           ),
         ),
@@ -354,7 +354,7 @@ class _MaterialControlsState extends State<MaterialControls>
               chewieController.isFullScreen
                   ? Icons.fullscreen_exit
                   : Icons.fullscreen,
-              color: Colors.white,
+              color: Colors.grey,
             ),
           ),
         ),
