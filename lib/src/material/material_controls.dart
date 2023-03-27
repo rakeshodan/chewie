@@ -430,14 +430,14 @@ class _MaterialControlsState extends State<MaterialControls>
             text: '/ ${formatDuration(duration)}',
             style: TextStyle(
               fontSize: 14.0,
-              color: Colors.white.withOpacity(.75),
+              color: Colors.grey,
               fontWeight: FontWeight.normal,
             ),
           )
         ],
         style: const TextStyle(
           fontSize: 14.0,
-          color: Colors.white,
+          color: Colors.grey,
           fontWeight: FontWeight.bold,
         ),
       ),
